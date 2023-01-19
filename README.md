@@ -31,6 +31,7 @@ This repository is a collection of different databases **docker-compose** YAML f
 - [ ] CAP theorem to choose your database wisely
 - [ ] ACID properties
 - [ ] Improvements on each explained database type md file
+- [ ] MariaDB
 
 ## Resources
 

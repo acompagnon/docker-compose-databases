@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+    redisstack:
+        image: redis/redis-stack:latest
+        restart: always
+        # volumes:
+        #   - ./data/:/data
+        #   - ./custom-redis.conf:/redis-stack.conf
+        ports:
+            - 6379:6379 # Redis Stack Server
+            - 8001:8001 # Redis Insight
+        # environment:
+        # REDIS_ARGS:
+        # REDISEARCH_ARGS:
+        # REDISJSON_ARGS:
+        # REDISGRAPH_ARGS:
+        # REDISTIMESERIES_ARGS:
+        # REDISBLOOM_ARGS:
